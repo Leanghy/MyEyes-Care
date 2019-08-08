@@ -7,9 +7,11 @@
  */
 
 import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, View,StatusBar} from 'react-native';
+import {Platform, StyleSheet, Text, View,StatusBar,ImageBackground} from 'react-native';
 import Login from './src/pages/Login';
 import Signup from './src/pages/Signup';
+import HomeMenu from './src/pages/HomeMenu';
+import Contact from './src/components/Contact';
 
 const instructions = Platform.select({
   ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
@@ -22,10 +24,20 @@ const instructions = Platform.select({
 export default class App extends Component<{}> {
   render() {
     return (
-      <View style={styles.container}>
-        <Signup/>
+      // <View>
+      //   <Signup/>
+      //   <HomeMenu/>
+      //   <Contact/> 
+      // </View>
+      
+      <ImageBackground
+        source={require('./app/img/background.png')}
+        style={styles.container}
+      >
+      <View style={{marginTop:180}}>
+       <Login/>
       </View>
-  
+      </ImageBackground>
     );
   }
 }
@@ -33,8 +45,8 @@ export default class App extends Component<{}> {
 const styles = StyleSheet.create({
   container: {
     flex:1,
-    backgroundColor: '#eff5f5',
     alignItems:'center',
     justifyContent:'center'
+    
   }
 });

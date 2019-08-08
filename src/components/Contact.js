@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import { View, Text } from 'react-native';
 import { StyleSheet } from 'react-native';
 import { TextInput } from 'react-native';
-import { TouchableOpacity } from 'react-native';
+import { TouchableOpacity ,ImageBackground} from 'react-native';
 
 
 // create a component
@@ -26,6 +26,7 @@ handleChangeText=(text)=>{
 }
     render() {
         return (
+            
             <View style={styles.container}>
                 <Text >Hello World</Text>
 

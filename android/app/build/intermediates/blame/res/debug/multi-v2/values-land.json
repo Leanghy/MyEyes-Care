@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/leanghy/Documents/8-Learn React Native/MyEyesCare/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "outputFile": "/Users/leanghy/Documents/LearnReactNative/MyEyesCare/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
                     "source": "/Users/leanghy/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/b9eb329750d8d6c2fe4566fbd0c35b17/res/values-land/values-land.xml",
@@ -11,6 +11,25 @@
                         "startOffsets": "55,125,196",
                         "endColumns": "69,70,67",
                         "endOffsets": "120,191,259"
+                    }
+                },
+                {
+                    "source": "/Users/leanghy/.gradle/caches/transforms-1/files-1.1/design-28.0.0.aar/081c51284f91755dc9c7fd61960b3f5e/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "10",
+                        "endOffsets": "222"
+                    },
+                    "to": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "264",
+                        "endLines": "8",
+                        "endColumns": "10",
+                        "endOffsets": "431"
                     }
                 }
             ]

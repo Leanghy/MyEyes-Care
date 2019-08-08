@@ -19,13 +19,13 @@ export default class Login extends Component<{}>{
 }
 
 const styles = StyleSheet.create({
-    signupText:{
-       
+    signupText:{flex:1,
         alignItems:'center',
-        justifyContent:'center'
+        justifyContent:'center',
+        marginBottom:120
     },
     signupButton:{
-        color:'#ffffff',
+        color:'blue',
         fontSize:18,
         fontWeight:'500'
     }

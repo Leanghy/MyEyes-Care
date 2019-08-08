@@ -47,13 +47,13 @@ class MyClass extends Component {
 
                 <View >
                     <Text style={{ fontSize: 18, color: 'green', marginBottom: 15 }}>
-                    Title: {item.book_title}
+                    Title: {item.Username}
                     </Text>
                     <Text style={{ fontSize: 16, color: 'red' }}>
-                    Name : {item.Name}
+                    Name : {item.Password}
                     </Text>
                     <Text style={{ fontSize: 16, color: 'red' }}>
-                    Age: {item.Age}
+                    Age: {item.User_ID}
                     </Text>
                 </View>
             </TouchableOpacity>
@@ -61,12 +61,13 @@ class MyClass extends Component {
     }
 
     componentDidMount() {
-        const url = 'http://www.json-generator.com/api/json/get/bTWQsuBVCG?indent=2'
+        // const url = 'http://www.json-generator.com/api/json/get/bTWQsuBVCG?indent=2'
+        const url = 'http://app.khmer2you.com/API/APIUSER'
         fetch(url)
             .then((response) => response.json())
             .then((responseJson) => {
                 this.setState({
-                    dataSource: responseJson.book_array,
+                    dataSource: responseJson,
                     isLoading: false
                 })
             })

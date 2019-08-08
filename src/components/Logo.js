@@ -9,6 +9,7 @@ export default class Logo extends Component<{}>{
                         justifyContent:'center',
                         width: 90,
                         height: 90
+                        
                     }}
                 source={require('../images/logo.png')} />
                 <Text style={{
@@ -27,5 +28,6 @@ const styles = StyleSheet.create({
     //   flex:1,
       alignItems:'center',
       justifyContent:'center'
+      
     }
   });

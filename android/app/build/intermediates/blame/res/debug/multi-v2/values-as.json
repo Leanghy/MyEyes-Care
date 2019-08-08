@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/leanghy/Documents/8-Learn React Native/MyEyesCare/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-as/values-as.xml",
+            "outputFile": "/Users/leanghy/Documents/LearnReactNative/MyEyesCare/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-as/values-as.xml",
             "map": [
                 {
                     "source": "/Users/leanghy/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/e697abba5a4f6647a21e20a96b2283b4/res/values-as/values-as.xml",
