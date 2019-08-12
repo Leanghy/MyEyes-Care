@@ -5,11 +5,9 @@ import { Navigation } from 'react-native-navigation';
 
 // create a component
 class HomeMenu extends Component {
-
     goToScreen = (screenName) => {
         Navigation.push(this.props.componentId, {
             component: {
-               
                 name: screenName
             }
         })
@@ -18,12 +16,10 @@ class HomeMenu extends Component {
 
     render() {
         return (
-
             <ImageBackground 
                 source={require('../../app/img/home_menu_bg.png')}
-                style={{ width: '100%', height: '100%' ,justifyContent: 'center'}}
-            >
-        
+                style={{ width: '100%', height: '100%' ,justifyContent: 'center'}}>
+
                 <View style={styles.overlayContainer}>
                     
                     <TouchableOpacity style={styles.top}>
@@ -34,7 +30,7 @@ class HomeMenu extends Component {
                     
                     <View style={styles.menuContainer}>
                     <TouchableOpacity 
-                        onPress={() => this.goToScreen('Signup')}
+                        onPress={() => this.goToScreen('Patient')}
                         style={styles.image}>
                         <Image 
                             source={require('../../app/img/Appointment1.png')} 
@@ -42,7 +38,7 @@ class HomeMenu extends Component {
                     </TouchableOpacity>
                     
                     <TouchableOpacity
-                      onPress={() => this.goToScreen('Card')}
+                      onPress={() => this.goToScreen('Doctor')}
                     style={styles.image}>
                         <Image 
                             source={require('../../app/img/Doctor1.png')} 

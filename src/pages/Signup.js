@@ -4,7 +4,7 @@ import { Platform, StyleSheet, Text, View, StatusBar, Image,
 import Logo from '../components/Logo';
 import Form from '../components/Form';
 
-export default class Signup extends Component<{}>{
+export default class Signup extends Component{
     render() {
         return (
             <View>
